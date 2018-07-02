@@ -1,0 +1,136 @@
+@import "core/styles/variables";
+
+/* Dashboard Page
+   ========================================================================== */
+
+.page-dashboard {
+  margin-top: 10px;
+  .dashboard-section {
+    height: 100%;
+
+    & > .dropdown {
+      text-align: right;
+    }
+  }
+
+  .table-control {
+    margin-top: 30px;
+  }
+
+  .table--campaign-list {
+    margin-top: 10px;
+
+    .icon--media {
+      font-size: 17px;
+      vertical-align: middle;
+    }
+
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: $--color-tundora;
+      text-decoration: none;
+    }
+  }
+
+  .table-filter {
+    position: relative;
+    padding: 20px;
+    background-color: #f1f1f1;
+    font-weight: 400;
+
+    &--title {
+      width: 61px;
+    }
+    &--scope {
+      width: 180px;
+      > select {
+        width: 100%;
+      }
+    }
+    &--search {
+      width: 365px;
+    }
+    &--button-group {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .button--clear,
+    .button--save-filter,
+    .button--load-filter {
+      width: 93px;
+    }
+    .button--clear {
+      position: absolute;
+      top: 13px;
+      right: 0;
+    }
+  }
+
+  // Table filters
+  .table-filter--result {
+    &-wrap {
+      clear: both;
+      position: relative;
+      margin-left: 61px;
+      padding: {
+        left: 10px;
+        top: 10px;
+        right: 104px;
+      }
+    }
+
+    padding: 4px 4px 0;
+    box-sizing: border-box;
+    min-height: 30px;
+    border: 1px solid #c6c6c6;
+    background-color: #fff;
+  }
+
+  .button--searching-add,
+  .button--save-filter,
+  .table-filter--result-wrap {
+    display: none;
+  }
+
+  .typing .button--searching-add {
+    display: block;
+  }
+
+  .add {
+    .button--save-filter {
+      display: inline-block;
+    }
+    .table-filter--result-wrap {
+      display: block;
+    }
+  }
+}
+
+.campaign-details {
+  margin-top: 10px;
+}
+
+.row.filter-contents {
+  padding: 20px 30px;
+}
+
+.filter-wrap {
+  float: left;
+}
+
+.filter-title {
+  float: left;
+  line-height: 25px;
+}
+
+.filter-content {
+  float: left;
+  margin: {
+    left: 20px;
+    right: 50px;
+  }
+}

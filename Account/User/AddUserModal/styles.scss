@@ -1,0 +1,73 @@
+.fb-user-list {
+  margin-left: -10px;
+
+  &__depth2 {
+    position: relative;
+    padding-left: 40px;
+    border-top: 1px solid #c6c6c6;
+    background-color: #f5f5f5;
+    line-height: 29px;
+    cursor: pointer;
+  }
+
+  &__badge {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    font-size: 14px;
+  }
+
+  &__name {
+    display: block;
+    width: 27%;
+  }
+
+  &__email {
+    display: block;
+    width: 73%;
+  }
+}
+
+.add-user .dropdown-item:hover {
+  background-color: transparent;
+}
+
+.fb-user-list__group {
+  position: relative;
+  padding: {
+    left: 10px;
+    right: 35px;
+  }
+  width: 100%;
+  text-align: left;
+  line-height: 29px;
+  color: #404040;
+
+  &.expand::after {
+    content: "\E901";
+  }
+  &::after {
+    content: "\E902";
+
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 17px;
+
+    font-family: "adwitticon", sans-serif !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &-name {
+    font-weight: 400;
+  }
+}
+

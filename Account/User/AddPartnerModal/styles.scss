@@ -1,0 +1,27 @@
+.add-partner {
+  &__row {
+    margin-top: 10px;
+
+    button {
+      padding: {
+        left: 12px;
+        right: 12px;
+      }
+    }
+  }
+  &__row:first-child {
+    margin-top: 0;
+  }
+
+  &__header {
+    display: inline-block;
+    width: 155px;
+    font-weight: 400;
+  }
+
+  &__check-result {
+    > strong {
+      font-weight: 400;
+    }
+  }
+}

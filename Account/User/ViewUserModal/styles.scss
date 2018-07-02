@@ -1,0 +1,47 @@
+.view-user__info {
+  &__row {
+    margin-top: 10px;
+    min-height: 25px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__header {
+    display: inline-block;
+    width: 150px;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+}
+
+.view-user__status {
+  &__text {
+    width: 240px;
+    padding-left: 18px;
+    text-indent: -9px;
+    word-break: keep-all;
+  }
+
+  .status-wrap {
+    margin-right: 7px;
+  }
+}
+
+.view-user__history {
+  overflow-y: scroll;
+  margin-top: 10px;
+  padding: 15px 18px;
+  height: 499px;
+  border: 1px solid #c6c6c6;
+
+  &__line {
+    margin: {
+      bottom: 12px;
+    }
+  }
+}
+
+
+

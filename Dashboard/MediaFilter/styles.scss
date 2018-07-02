@@ -1,0 +1,25 @@
+.media {
+  margin-bottom: 10px;
+}
+
+.media-filter {
+  .channel {
+    li {
+      float: left;
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.aw-checkbox {
+  font-size: 1rem;
+}
+
+.button--searching-ok {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}

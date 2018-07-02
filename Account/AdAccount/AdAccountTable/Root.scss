@@ -1,0 +1,34 @@
+.ad-account-table-root {
+
+  .contents-search_and_info {
+    display: flex;
+
+    .search-box {
+      flex-grow: .5;
+      width: 360px;
+    }
+    .info {
+      flex-grow: .5;
+      font-size: 0.8571rem;
+      text-align: right;
+
+      span {
+        font-weight: 300;
+        opacity: 0.6;
+        padding-left: 5px;
+      }
+      strong {
+        font-weight: 300;
+        color: #ff8a2f;
+        opacity: 1;
+      }
+    }
+  }
+
+  .content-table {
+    margin-top: 20px;
+  }
+
+
+}
+

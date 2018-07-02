@@ -1,0 +1,61 @@
+.table-filter {
+  position: relative;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-weight: 400;
+
+  &--title {
+    width: 61px;
+  }
+  &--scope {
+
+    > select {
+      width: 100%;
+    }
+  }
+  &--search {
+    width: 365px;
+  }
+  &--button-group {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .button--clear,
+  .button--save-filter,
+  .button--load-filter {
+    width: 93px;
+  }
+  .button--clear {
+    position: absolute;
+    top: 13px;
+    right: 0;
+  }
+}
+.table--campaign-list {
+  margin-top: 10px;
+}
+.table-filter--result {
+  &-wrap {
+    clear: both;
+    position: relative;
+    margin-left: 61px;
+    padding: {
+      left: 10px;
+      top: 10px;
+      right: 104px;
+    }
+  }
+
+  padding: 4px 4px 0;
+  box-sizing: border-box;
+  min-height: 30px;
+  border: 1px solid #c6c6c6;
+  background-color: #fff;
+}
+.table-filter--search {
+  input {
+    height:26px;
+  }
+}

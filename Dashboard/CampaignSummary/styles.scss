@@ -1,0 +1,34 @@
+.campaign-summary {
+  margin-top: 10px;
+  .row-summary {
+    display: flex;
+    .row-summary-item {
+      flex: 1;
+      margin-left: 10px;
+      &:first-child {
+        margin-left: 0;
+      }
+      > div {
+        height: 100%;
+      }
+      .row-summary-item-inner {
+        display: table;
+        width: 100%;
+        height: calc(100% - 33px);
+        .row-summary-item-inner-value {
+          display: table-cell;
+          width: 50%;
+          vertical-align: middle;
+          text-align: center;
+          font-size: 4rem;
+          font-weight: bold;
+        }
+        .row-summary-item-inner-media {
+          display: table-cell;
+          width: 50%;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
